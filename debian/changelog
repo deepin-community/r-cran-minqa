@@ -1,0 +1,44 @@
+r-cran-minqa (1.2.4-1-deepin1) unstable; urgency=medium
+
+  * Rebuild
+
+ -- Deepin Packages Builder <packages@deepin.org>  Thu, 24 Nov 2022 07:20:27 +0800
+
+r-cran-minqa (1.2.4-1) unstable; urgency=low
+
+  * New upstream release
+
+  * debian/control: Set (Build-)Depends: to current R version
+  * debian/control: Set Standards-Version: to current version 
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Thu, 09 Oct 2014 11:34:40 -0500
+
+r-cran-minqa (1.2.3-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Tue, 04 Feb 2014 06:52:19 -0600
+
+r-cran-minqa (1.2.2-2) unstable; urgency=low
+
+  * Rebuilt as required for Rcpp 0.11.0
+  * debian/control: Added (Build-)Depends: on r-cran-rcpp (>= 0.11.0-1)
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Mon, 03 Feb 2014 20:14:23 -0600
+
+r-cran-minqa (1.2.2-1) unstable; urgency=low
+
+  * New upstream release
+
+  * debian/control: Set (Build-)Depends: to current R version
+  * debian/control: Set Standards-Version: to current version 
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Thu, 19 Dec 2013 19:34:40 -0600
+
+r-cran-minqa (1.2.1-1) unstable; urgency=low
+
+  * Initial Debian release 				(Closes: #722651)
+  
+ -- Dirk Eddelbuettel <edd@debian.org>  Fri, 13 Sep 2013 05:22:30 -0500
+
+

@@ -1,0 +1,48 @@
+This is the Debian GNU/Linux r-cran-minqa package of minqa.  The minqa
+package provides derivative-free optimization by quadratic
+approximation and was written by Douglas Bates, Katharine M. Mullen,
+John C. Nash, and Ravi Varadhan.
+
+This package was created by Dirk Eddelbuettel <edd@debian.org>.
+The sources were downloaded from the main CRAN site
+	http://cran.r-project.org/src/contrib/
+and are also available from all CRAN mirrors as e.g.
+	http://cran.us.r-project.org/src/contrib/
+
+The package was renamed from its upstream name 'minqa' to
+'r-cran-minqa' to fit the pattern of CRAN (and non-CRAN) packages
+for R.
+
+Files: *
+Copyright: 2010 - 2013  Douglas Bates, Katharine M. Mullen, John C. Nash, and Ravi Varadhan
+License: GPL-2
+
+Files: debian/*
+Copyright: 2013  Dirk Eddelbuettel <edd@debian.org>
+License: GPL-2
+
+
+On a Debian GNU/Linux system, the GPL license (version 2) is included
+in the file /usr/share/common-licenses/GPL-2.
+
+
+For reference, the upstream DESCRIPTION file is included below:
+
+  Package: minqa
+  Type: Package
+  Title: Derivative-free optimization algorithms by quadratic
+          approximation
+  Version: 1.2.1
+  Author: Douglas Bates, Katharine M. Mullen, John C. Nash, Ravi Varadhan
+  Maintainer: Katharine M. Mullen <katharine.mullen@nist.gov>
+  Description: Derivative-free optimization by quadratic approximation
+          based on an interface to Fortran implementations by M. J. D.
+          Powell.
+  License: GPL-2
+  Depends: Rcpp (>= 0.9.10)
+  LinkingTo: Rcpp
+  SystemRequirements: GNU make
+  Packaged: 2012-05-07 23:42:22 UTC; kmm
+  Repository: CRAN
+  Date/Publication: 2012-05-12 15:17:15
+  
